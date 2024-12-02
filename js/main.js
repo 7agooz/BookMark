@@ -54,12 +54,10 @@ function displaySite() {
   document.getElementById("demo").innerHTML = cartona;
 }
 
-
 function clearInput() {
   siteNameInput.value = "";
   siteURLInput.value = "";
 }
-
 
 function visitSite(link) {
   if (!link.startsWith("http://") && !link.startsWith("https://")) {
@@ -67,7 +65,6 @@ function visitSite(link) {
   }
   window.open(link);
 }
-
 
 function deleteSite(index) {
   siteList.splice(index, 1);
