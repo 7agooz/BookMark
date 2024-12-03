@@ -30,7 +30,6 @@ function addWeb() {
   localStorage.setItem("allLinks", JSON.stringify(siteList));
 }
 
-// عرض المواقع في الجدول
 function displaySite() {
   var cartona = "";
   for (var i = 0; i < siteList.length; i++) {
